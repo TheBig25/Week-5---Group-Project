@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -10,6 +11,8 @@ public class CornCollector : MonoBehaviour
     public int requiredScore = 40; // Score needed to win
     public float loseTime = 30; // Time limit to win in seconds
     public GameObject winScreen, loseScreen; //Stores Win and Lose Screens
+
+    public TextMeshProUGUI scoreText; // Reference to the UI text component to display the score
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,6 +33,8 @@ public class CornCollector : MonoBehaviour
         {
             loseScreen.SetActive(true);
         }
+
+        scoreText.text = "Score: " + Score;
     }
 
     void OnTriggerEnter2D(Collider2D other) 
