@@ -43,7 +43,7 @@ public class ChickenMovement : MonoBehaviour
 
         void Jump()
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) && jumpsLeft > 0)
+            if (Input.GetKeyDown(KeyCode.Space) && jumpsLeft > 0 || Input.GetKeyDown(KeyCode.UpArrow) && jumpsLeft > 0  || Input.GetKeyDown(KeyCode.W) && jumpsLeft > 0)
             {
                 GetComponent<Rigidbody2D>().linearVelocityY = FlapForce;
                 jumpsLeft--;
