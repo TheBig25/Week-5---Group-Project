@@ -1412,9 +1412,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8486001192359589364, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: loseTime
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8486001192359589364, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 350646678}
+    - target: {fileID: 8486001192359589364, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 127258218}
+    - target: {fileID: 8486001192359589364, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: timeLimit
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8486001192359589364, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
       propertyPath: winScreen
       value: 
