@@ -34,7 +34,7 @@ public class CornCollector : MonoBehaviour
             Time.timeScale = 0f; // Pause the game
         }
 
-        if (Time.time >= loseTime && !winScreen.activeSelf)
+        if (timeLimit <= 0 && !winScreen.activeSelf)
         {
             loseScreen.SetActive(true);
             timeText.text = "00:00";
