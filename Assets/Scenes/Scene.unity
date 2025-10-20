@@ -714,6 +714,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3979035016453714979, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979035016453714979, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.117
+      objectReference: {fileID: 0}
     - target: {fileID: 5846746918056967548, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
       propertyPath: m_Name
       value: Chicken
@@ -757,6 +765,14 @@ PrefabInstance:
     - target: {fileID: 6687330701796349209, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968676031200818210, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968676031200818210, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.117
       objectReference: {fileID: 0}
     - target: {fileID: 8954242860711004618, guid: 2ad88374edec1db439945667b7c6cf9b, type: 3}
       propertyPath: m_Enabled
