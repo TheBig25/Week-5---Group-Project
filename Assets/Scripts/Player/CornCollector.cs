@@ -19,6 +19,7 @@ public class CornCollector : MonoBehaviour
     void Start()
     {
         Score = 0; //Starting score set to 0
+        Time.timeScale = 1f; // Ensure the game is running at normal speed
     }
 
     // Update is called once per frame
@@ -27,11 +28,13 @@ public class CornCollector : MonoBehaviour
         if (Score >= requiredScore && !loseScreen.activeSelf)
         {
             winScreen.SetActive(true);
+            Time.timeScale = 0f; // Pause the game
         }
 
         if (Time.time >= loseTime && !winScreen.activeSelf)
         {
             loseScreen.SetActive(true);
+            Time.timeScale = 0f; // Pause the game
         }
 
         scoreText.text = "Score: " + Score;
