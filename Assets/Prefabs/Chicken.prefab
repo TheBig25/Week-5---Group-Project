@@ -414,9 +414,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3163551850475436077}
-    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 8954242860711004618}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
       insertIndex: -1
@@ -427,30 +424,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8486001192359589364}
-    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 23836430987926587}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
 --- !u!1 &5846746918056967548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
   m_PrefabInstance: {fileID: 3574642079958755860}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3163551850475436077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5846746918056967548}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd91198ea12f29548b2bc43da908f790, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HorizontalSpeed: 5
-  FlapForce: 5
-  maxJumps: 3
 --- !u!114 &8954242860711004618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,27 +531,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
-  requiredScore: 6
-  loseTime: 10
-  winScreen: {fileID: 18762786755182988}
-  loseScreen: {fileID: 6242817341470507008}
---- !u!114 &23836430987926587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5846746918056967548}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d706bd4901f9569478d3ffa48f58f753, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Score: 0
   requiredScore: 40
   loseTime: 30
   winScreen: {fileID: 0}
   loseScreen: {fileID: 0}
+  scoreText: {fileID: 0}
 --- !u!4 &6687330701796349209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 6628d9c6bff0cd94b996b52cc7292a37, type: 3}
